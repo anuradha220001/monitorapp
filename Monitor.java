@@ -10,7 +10,7 @@ public class Monitor {
 		isOn = false;
 		brand = "";
 	}
-	//parameterised constructor
+	//parameterized constructor
 	public Monitor(boolean On, String monitorBrand) {
 		isOn = false;
 		brand = monitorBrand;
