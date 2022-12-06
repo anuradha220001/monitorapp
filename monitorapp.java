@@ -4,12 +4,13 @@ public class monitorapp {
 
 	public static void main(String[] args) {
 
+		//two objects
 		Monitor monitor1 = new Monitor();
 		Monitor monitor2 = new Monitor(true, "Asus");
 
 		monitor1.start();
 
-//		System.out.println(monitor2.isOn);
+
 
 		if (monitor1.isOn) {
 			System.out.println("Monitor1 is on");
